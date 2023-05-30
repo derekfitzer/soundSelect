@@ -12,6 +12,8 @@ import AVFoundation
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     var sounds = ["samplen","samplenHighPass","samplenLPass","samplenReverb"]
+    
+    var test = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
